@@ -102,7 +102,7 @@ function render()
      renderer.render( scene, camera );
     //set movement depending on starting positions to be in snyc
      spheres.forEach((element) => {
-        element.position.y = 5 + Math.sin(((element.position.x / 1.1 + element.position.z / 1.1) + time) * 2) * 2.5
+        element.position.y = 10 + Math.sin(((element.position.x / 1.1 + element.position.z / 1.1) + time) * 2) * 2.5
      })
 }
 
